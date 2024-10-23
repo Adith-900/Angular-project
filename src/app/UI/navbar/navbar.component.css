@@ -1,0 +1,39 @@
+nav{
+    background-color: rgba(127, 255, 212, 0.697);
+    padding-inline: 1rem;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    display: inline;
+
+
+}
+
+nav ul li a {
+    color: rgb(102, 17, 17);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+nav ul li a:hover{
+    background-color: beige;
+    border-radius: 50px;
+}

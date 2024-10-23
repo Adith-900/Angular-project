@@ -1,0 +1,17 @@
+<div class="container">
+	<div class="row">
+
+		@for (item of pokimon; track item.id){
+		<div class="col py-5">
+			<div class="card" style="width: 18rem;">
+				<img src={{item.image_url}} class="card-img-top" alt="...">
+				<div class="card-body">
+				  <h5 class="card-title"> {{item.pokemon}}</h5>
+				  <p class="card-text">{{item.location}}</p>
+				  <a routerLink="/product/{{item.id}}" class="btn btn-primary">Show More</a>
+				</div>
+			  </div>
+		</div>
+	}
+	</div>
+</div>
